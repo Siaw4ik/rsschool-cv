@@ -1,4 +1,4 @@
-#  Perats Vichaslau
+#  Perats Viachaslau
 <img src="Slawa.jpg" alt="foto" width="150">
 
 ## Contact
