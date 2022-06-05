@@ -1,4 +1,5 @@
-#  Perets Vichaslau
+#  Perats Vichaslau
+<img src="Slawa.jpg" alt="foto" width="150">
 
 ## Contact
   - E-mail: peretsviach@gmail.com
