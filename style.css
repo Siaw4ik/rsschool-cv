@@ -1,14 +1,147 @@
 body {
-    background-color: rgb(255, 254, 249);
+    background-color: rgb(255, 254, 250);
+    margin: 0px;
 }
 header {
     background-color: rgb(232, 230, 219);
     width: 1200px;
-    margin: auto;
+    margin: 0px auto;
+    position: sticky;
+    top: 0;
+    height: 40px;
+}
+.menu ul {
+    margin: 0px;
 }
 .menu li {
     display: inline-block;
     list-style: none;
+    text-align: center;
+    margin-top: 10px;
+}
+.menu a {
     text-decoration: none;
-    color: black;    
+    color: black; 
+    padding: 12px 35px;
+}
+.menu a:hover {
+    text-decoration: underline;
+    background-color: rgb(255, 255, 0);
+}
+.all {
+    width: 1200px;
+    margin: 10px auto;
+    background-color: white;
+    position: relative;
+    height: 1770px;
+}
+.leftall {
+    position: absolute;
+    width: 433px;
+    left: 0;
+    top: 0;
+    background-color: rgb(232, 230, 219);
+    height: 1770px;
+}
+.rightall {
+    position: absolute;
+    width: 767px;
+    right: 0;
+    top: 0;
+    background-color: white;
+    height: 1770px;
+}
+
+.name {
+    height: 425.5px;
+}
+.name h1, .name p {
+    padding-left: 50px;
+}
+.name h1 {
+    font-size: 40px;
+    position: relative;
+    padding-top: 80px;
+}
+.name h1::after {
+    position: absolute;
+    content: "";
+    top: 150px;
+    left: 50px;
+    height: 5px;
+    width: 307px;
+    background-color: rgb(232, 230, 219);
+}
+.name p {
+    font-size: 22px;
+    padding-top: 30px;
+}
+h2 {
+    font-size: 28px;
+    background-color: rgb(219, 214, 170);
+    height: 32px;
+    padding-left: 50px;
+    position: relative;
+    margin: 40px 0;
+}
+h2::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 32px;
+    background-color: black;
+}
+.history p {
+    margin-left: 50px;
+    margin-right: 20px;
+    font-size: 18px;
+    line-height: 27px;
+}
+.contact ul {
+    line-height: 40px;
+    list-style: none;
+    font-size: 20px;
+    padding-left: 50px;
+}
+.skill ul,
+.work ul,
+.education ul,
+.lang ul {
+    padding-left: 70px;
+    font-size: 18px;
+    line-height: 27px;
+}
+.education a{
+    color: black;
+}
+.footer {
+    background-color: rgb(232, 230, 219);
+    color: rgb(0, 0, 0);
+    width: 1200px;
+    margin: auto;
+    height: 60px;
+    font-size: 24px; position: relative;
+}
+.footer p {
+    display: inline-block;
+    margin: 0;
+}
+.one {
+    position: absolute;
+    right: 130px;
+}
+.two {
+    position: absolute;
+    right: 20px;
+    top: 17px;
+}
+.three {
+    position: absolute;
+    right: 230px;
+    top: 20px;
+}
+.img {
+    background-color: rgb(232, 230, 219);;
 }
