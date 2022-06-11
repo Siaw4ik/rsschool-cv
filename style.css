@@ -9,5 +9,6 @@ header {
 .menu li {
     display: inline-block;
     list-style: none;
-    
+    text-decoration: none;
+    color: black;    
 }
