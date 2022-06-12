@@ -1,55 +1,62 @@
 body {
     background-color: rgb(255, 254, 250);
     margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 header {
     background-color: rgb(232, 230, 219);
-    width: 1200px;
+    width: 75%;
     margin: 0px auto;
     position: sticky;
     top: 0;
-    height: 40px;
 }
 .menu ul {
-    margin: 0px;
+    padding: 15px;
+    margin: 0;
 }
 .menu li {
     display: inline-block;
     list-style: none;
     text-align: center;
-    margin-top: 10px;
+    font-size: 18px;
 }
 .menu a {
     text-decoration: none;
     color: black; 
-    padding: 12px 35px;
+    padding: 16px 30px;
 }
 .menu a:hover {
     text-decoration: underline;
     background-color: rgb(255, 255, 0);
+    
 }
 .all {
-    width: 1200px;
+    width: 75%;
     margin: 10px auto;
     background-color: white;
     position: relative;
-    height: 1900px;
+    min-height: 1850px;
+    
 }
 .leftall {
     position: absolute;
-    width: 433px;
+    width: 35%;
     left: 0;
     top: 0;
     background-color: rgb(232, 230, 219);
-    height: 1900px;
+    min-height: 1850px;
+    
 }
 .rightall {
     position: absolute;
-    width: 767px;
+    width: 65%;
     right: 0;
     top: 0;
     background-color: white;
-    height: 1900px;
+    min-height: 1850px;
+    
 }
 
 .name {
@@ -133,17 +140,18 @@ summary:hover {
 pre {
     white-space: normal;
     background-color: rgb(232, 232, 232);
-    width: 600px; border-radius: 10px;
+    width: 80%; border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 0 10px rgba (0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 .footer {
     background-color: rgb(232, 230, 219);
     color: rgb(0, 0, 0);
-    width: 1200px;
+    width: 75%;
     margin: auto;
     height: 60px;
-    font-size: 24px; position: relative;
+    font-size: 24px;
+    position: relative;
 }
 .footer p {
     display: inline-block;
