@@ -1,3 +1,185 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+}
 body {
-    background-color: aliceblue;
+    background-color: rgb(255, 254, 250);
+    margin: 0;
+    display: block;
+}
+.global {
+    max-width: 1200px;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+}
+header {
+    background-color: rgb(232, 230, 219);
+    width: 100%;
+    height: 50px;
+}
+.menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menu a {
+    text-decoration: none;
+    color: black; 
+    padding: 16px 10px;
+    line-height: 50px;
+}
+.menu a:hover {
+    text-decoration: underline;
+    background-color: rgb(255, 255, 0);   
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+.leftall {
+    
+    background-color: rgb(232, 230, 219); 
+}
+.rightall {
+    background-color: white;   
+}
+.name {
+    margin: 100px 30px 256px 60px;
+}
+.name h1 {
+    font-size: 50px;
+    line-height: 75px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.name h1::after {
+    content: "";
+    position: absolute;
+    top: 130%;
+    left: 0;
+    height: 6px;
+    width: 61%;
+    background-color: rgb(232, 230, 219);
+}
+.name p {
+    font-size: 22px;
+    padding-top: 30px;
+}
+h2 {
+    font-size: 28px;
+    line-height: 30px;
+    background-color: rgb(219, 214, 170);
+    height: 32px;
+    padding-left: 60px;
+    position: relative;
+    margin: 40px 0;
+}
+h2::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 32px;
+    background-color: black;
+}
+.history {
+    padding-top: 4px;
+}
+.history p {
+    margin-left: 60px;
+    margin-right: 40px;
+    font-size: 18px;
+    line-height: 27px;
+}
+.contact ul {
+    line-height: 40px;
+    list-style: none;
+    font-size: 20px;
+    margin: 0;
+    padding: 0 40px 0 60px;
+}
+.skill ul,
+.project ul,
+.work ul,
+.education ul,
+.lang ul {
+    padding-left: 80px;
+    padding-right: 30px;
+}
+.project a,
+.education a{
+    color: black;
+}
+details {
+    padding-left: 60px;
+    font-size: 18px;
+    line-height: 27px;
+}
+summary {
+    text-decoration: underline;
+}
+summary::marker {
+   color: rgb(219, 214, 170);
+}
+summary:hover {
+    cursor: pointer;
+}
+pre {
+    white-space: normal;
+    background-color: rgb(232, 232, 232);
+    width: 80%; border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.footer {
+    background-color: rgb(232, 230, 219);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 60px;
+    font-size: 24px;
+    position: relative;
+}
+.footer p {
+    display: inline-block;
+    margin: 0;
+}
+.one {
+    position: absolute;
+    right: 130px;
+}
+.two {
+    position: absolute;
+    right: 20px;
+    top: 17px;
+}
+.three {
+    position: absolute;
+    right: 230px;
+    top: 20px;
+}
+.img {
+    background-color: rgb(232, 230, 219);
+}
+.myphoto {
+    display: block;
+    width: 100%;
+    height: min-content;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(232, 230, 219);
+}
+.photo {
+    width: 100%;
 }
