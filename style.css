@@ -111,12 +111,14 @@ h2::before {
     padding: 0 40px 0 60px;
 }
 .skill ul,
+.project ul,
 .work ul,
 .education ul,
 .lang ul {
     padding-left: 80px;
     padding-right: 30px;
 }
+.project a,
 .education a{
     color: black;
 }
